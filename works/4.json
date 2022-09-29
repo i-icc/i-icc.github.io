@@ -4,9 +4,10 @@
     "short_description": "これであなたもスタンド使い。\nスタンド使いはスタンド使いと惹かれ合う",
     "tag": ["software"],
     "image_path": "/img/jojo.png",
-    "description": "これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\n",
-    "media":"https://www.youtube.com/watch?v=SuFs3hz-SXA",
+    "description": ["テストだにゃあ"],
+    "media":"https://www.youtube.com/embed/SuFs3hz-SXA",
     "link": "",
+    "git": "",
     "tech": ["Python", "OpenPose", "sciket-learn"],
     "date": "2021-03-19"
 }

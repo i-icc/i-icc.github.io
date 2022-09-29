@@ -4,9 +4,10 @@
     "short_description": "寿司打(タイピングゲーム)の自動化ツール",
     "tag": ["software"],
     "image_path": "img/sushida.jpg",
-    "description": "これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\n",
-    "media":"youtube のやつ",
-    "link": "url",
+    "description": ["テストだにゃあ"],
+    "media":"https://www.youtube.com/embed/hG3O5N3M93o",
+    "link": "",
+    "git": "https://github.com/i-icc/sushida-automation",
     "tech": ["Python", "ocr"],
     "date": "2000-06-23"
 }
