@@ -1,12 +1,12 @@
 {
-    "id":3,
-    "title": "寿司食いまくりマシーン",
-    "short_description": "寿司打(タイピングゲーム)の自動化ツール",
+    "id":4,
+    "title": "スタンド召喚",
+    "short_description": "これであなたもスタンド使い。\nスタンド使いはスタンド使いと惹かれ合う",
     "tag": ["software"],
-    "image_path": "img/sushida.jpg",
+    "image_path": "/img/jojo.png",
     "description": "これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\n",
-    "media":"youtube のやつ",
-    "link": "url",
-    "tech": ["Python", "ocr"],
-    "date": "2000-06-23"
+    "media":"https://www.youtube.com/watch?v=SuFs3hz-SXA",
+    "link": "",
+    "tech": ["Python", "OpenPose", "sciket-learn"],
+    "date": "2021-03-19"
 }
