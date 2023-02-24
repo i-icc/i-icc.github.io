@@ -1,0 +1,20 @@
+{
+    "id": 0,
+    "title": "サブクエストメーカー",
+    "short_description": "人生のサブクエストを受注できます",
+    "tag": [
+        "service",
+        "recommended"
+    ],
+    "image_path": "/img/questmaker.png",
+    "description": [
+        "テストだにゃぁ。"
+    ],
+    "media": "",
+    "link": "https://i-icc.github.io/simple_sub_quests_maker/",
+    "git": "https://github.com/i-icc/simple_sub_quests_maker",
+    "tech": [
+        "Vue"
+    ],
+    "date": "2023-02-24"
+}
