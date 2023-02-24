@@ -1,20 +1,30 @@
 {
-    "id": 0,
-    "title": "サブクエストメーカー",
-    "short_description": "人生のサブクエストを受注できます",
+    "id": 15,
+    "title": "ジャンプクイーン",
+    "short_description": "ジャ⚪︎プキング のパロディーゲームです。web で遊べます",
     "tag": [
         "service",
+        "software",
         "recommended"
     ],
-    "image_path": "/img/questmaker.png",
+    "image_path": "/img/jumpqueen.png",
     "description": [
-        "テストだにゃぁ。"
+        "年末の暇な時間で作ったWEB上で動くゲーム",
+        "",
+        "耐久ゲームで有名な某ジャン○キングのパロディです。",
+        "操作方法はキーボードの 'A', 'D' で左右移動",
+        "'J' でジャンプ",
+        "ジャンプは 'J' を押し続けた時間によってジャンプの高さが変わります。",
+        "",
+        "自分はクリアに1時間かかりました。",
+        "",
+        "(キャラクターは⚪︎トミトをモチーフにしています。)"
     ],
-    "media": "",
-    "link": "https://i-icc.github.io/simple_sub_quests_maker/",
-    "git": "https://github.com/i-icc/simple_sub_quests_maker",
+    "media": "https://www.youtube.com/embed/PoyOR_iFnXQ",
+    "link": "https://i-icc.github.io/jump_queen/",
+    "git": "https://github.com/i-icc/jump_queen",
     "tech": [
-        "Vue"
+        "js"
     ],
-    "date": "2023-02-24"
+    "date": "2022-12-27"
 }
