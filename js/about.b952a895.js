@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunki_icc"]=self["webpackChunki_icc"]||[]).push([[443],{8075:function(n,c,i){i.r(c),i.d(c,{default:function(){return l}});var e=i(3396);const r={class:"container"},s=(0,e._)("div",{class:"display-1 home"},"Comming Soon.",-1),a=[s];function t(n,c){return(0,e.wg)(),(0,e.iD)("main",r,a)}var o=i(89);const u={},f=(0,o.Z)(u,[["render",t]]);var l=f}}]);
-//# sourceMappingURL=about.b952a895.js.map
