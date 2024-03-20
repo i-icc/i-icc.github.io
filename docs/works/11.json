@@ -1,0 +1,22 @@
+{
+    "id": 11,
+    "title": "オートぷにぷに",
+    "short_description": "妖怪ウォッチぷにぷに を自動でプレイします。",
+    "tag": [
+        "software",
+        "recommended"
+    ],
+    "image_path": "/img/punipuni.png",
+    "description": [
+        "原稿見つかったら更新します。"
+    ],
+    "media": "https://www.youtube.com/embed/7nyBElYmKak",
+    "link": "",
+    "git": "",
+    "tech": [
+        "Python",
+        "pyautogui",
+        "scikit-learn"
+    ],
+    "date": "2020-07-??"
+}

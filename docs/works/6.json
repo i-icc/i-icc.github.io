@@ -1,0 +1,21 @@
+{
+    "id": 6,
+    "title": "STOP 飲酒 Amazon",
+    "short_description": "飲酒時のアマゾンを防ぐことで無駄遣いを減らします。",
+    "tag": [
+        "software",
+        "hardware"
+    ],
+    "image_path": "/img/stopamazon.png",
+    "description": [
+        "原稿発掘したら更新します。"
+    ],
+    "media": "https://www.youtube.com/embed/YC3P-tTKf4Q",
+    "link": "",
+    "git": "https://github.com/i-icc/stop_amazon_alcohol",
+    "tech": [
+        "arduino",
+        "javascript"
+    ],
+    "date": "2022-06-1"
+}

@@ -1,0 +1,20 @@
+{
+    "id": 12,
+    "title": "ツイッター電光掲示板",
+    "short_description": "作業しながらのツイッターを可能に",
+    "tag": [
+        "software",
+        "recommended"
+    ],
+    "image_path": "/img/twikei.png",
+    "description": [
+        "原稿見つかったら更新します。"
+    ],
+    "media": "",
+    "link": "https://site-2644830-4822-7140.mystrikingly.com/blog/a652b912d77",
+    "git": "",
+    "tech": [
+        "Python"
+    ],
+    "date": "2020-09-06"
+}
