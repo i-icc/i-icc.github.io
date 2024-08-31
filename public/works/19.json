@@ -1,0 +1,29 @@
+{
+    "id": 19,
+    "title": "SSRメーカー",
+    "short_description": "あなたの日常をSSRに。ソーシャルゲームのSSRカードのようなフレーバーテキストとエフェクトをつけます。",
+    "tag": [
+        "service",
+        "software",
+        "recommended"
+    ],
+    "image_path": "/img/ssr-maker.png",
+    "description": [
+        "何気ない普段の日常をSSRに致します。",
+        "",
+        "技術構成",
+        ""
+    ],
+    "media": "https://www.youtube.com/embed/Yen3MNf0dF8",
+    "link": "https://ssr-maker.web.app/",
+    "git": "",
+    "tech": [
+        "Python",
+        "ts",
+        "React",
+        "flask",
+        "GoogleCloud",
+        "firebase"
+    ],
+    "date": "2000-06-23"
+}
