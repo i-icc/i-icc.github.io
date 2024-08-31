@@ -7,7 +7,7 @@
 
     <div class="row">
       <div class="col-md-3 display-6 link" v-for="link in links" :key="link.l">
-        <router-link class="nav-link" :to="link.l" style="color: black;">{{
+        <router-link class="nav-link" :to="link.l" style="color: black">{{
           link.t
         }}</router-link>
       </div>
@@ -27,6 +27,7 @@ export default {
         { l: "/info", t: "Info" },
         { l: "/blog", t: "Blog" },
       ],
+      recommended_ids: [19, 0],
     };
   },
 };

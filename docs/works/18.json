@@ -1,0 +1,21 @@
+{
+    "id": 18,
+    "title": "くそAds!!",
+    "short_description": "世の中にウザい広告、ありますよねぇ。その広告を統べたものを決めませんか？",
+    "tag": [
+        "service",
+        "software"
+    ],
+    "image_path": "/img/kusokokoku.png",
+    "description": [
+        "世の中にウザい広告、ありますよねぇ。",
+        "その広告を統べたものを決めませんか？"
+    ],
+    "media": "",
+    "link": "https://kusokokoku.web.app/",
+    "git": "https://github.com/i-icc/kuso-ads",
+    "tech": [
+        "react.js"
+    ],
+    "date": "2024-08-27"
+}

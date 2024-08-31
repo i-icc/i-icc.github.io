@@ -11,21 +11,17 @@ export default {
       {{ work.short_description }}
     </div>
     <div class="tags mb-2">
-    <router-link :to="'/works?tag=' + t" v-for="t in work.tag"
-        :key="t">
-      <span
-        class="badge rounded-pill bg-light text-dark tag"
-        >{{ t }}</span
-      >
+      <router-link :to="'/works?tag=' + t" v-for="t in work.tag" :key="t">
+        <span class="badge rounded-pill bg-light text-dark tag">{{ t }}</span>
       </router-link>
     </div>
-    <div class="mt-1">{{work.date}}</div>
+    <div class="mt-1">{{ work.date }}</div>
   </div>
 
   <div class="row">
     <div class="col-md-7 mb-3">
       <div v-for="d in work.description" :key="d">
-        <p>{{ d }}</p>
+        <p><span v-html="d"></span></p>
       </div>
     </div>
     <div class="col-md-1"></div>
