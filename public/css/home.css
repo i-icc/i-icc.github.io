@@ -1,6 +1,11 @@
 .link {
     animation-name: fade;
     animation-duration: 1.3s;
+    transition: transform 0.3s ease;
+}
+
+.link:hover {
+    transform: scale(1.25);
 }
 
 @keyframes fade {
