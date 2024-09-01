@@ -26,8 +26,8 @@
     <!-- グーグルフォーム -->
     <iframe
       src="https://docs.google.com/forms/d/e/1FAIpQLSeQ-stLKxZ87HoVHz_bt-K7SvJOQSB8vcG6RH0BrD_lTEwprw/viewform?embedded=true"
-      width="640"
-      height="723"
+      width="95%"
+      height="1000"
       frameborder="0"
       marginheight="0"
       marginwidth="0"
