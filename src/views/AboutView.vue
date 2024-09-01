@@ -5,7 +5,7 @@
       <div class="display-6 mb-2">
         思いついたものを徒然なるまま作っています。<br />
         <s>半年に一度くらいのペースで動画も出しています。</s><br />
-        連絡はTwitterのDMまで。
+        連絡は下記Googleフォームまで。
       </div>
     </div>
 
@@ -22,6 +22,17 @@
         /></a>
       </div>
     </div>
+
+    <!-- グーグルフォーム -->
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSeQ-stLKxZ87HoVHz_bt-K7SvJOQSB8vcG6RH0BrD_lTEwprw/viewform?embedded=true"
+      width="640"
+      height="723"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      >読み込んでいます…</iframe
+    >
     <!-- 技術スタックとかここにいつか書くかも -->
   </main>
 </template>
