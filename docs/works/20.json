@@ -1,0 +1,23 @@
+{
+    "id": 20,
+    "title": "世界の時計",
+    "short_description": "世界の(ナベ⚪︎ツ的な)時計",
+    "tag": [
+        "software"
+    ],
+    "image_path": "/img/world_clock.png",
+    "description": [
+        "世界の(ナベ⚪︎ツ的な)時計",
+        "3のつく時間を3の倍数でアホになり、",
+        "5の倍数で犬になります"
+    ],
+    "media": "",
+    "link": "https://i-icc.github.io/world-clock/",
+    "git": "https://github.com/i-icc/world-clock",
+    "tech": [
+        "js",
+        "html",
+        "css"
+    ],
+    "date": "2024-09-01"
+}
