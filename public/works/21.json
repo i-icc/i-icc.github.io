@@ -1,0 +1,23 @@
+{
+    "id": 21,
+    "title": "Photo Filter",
+    "short_description": "wasm のテストとして画像フィルターを作成しました",
+    "tag": [
+        "software"
+    ],
+    "image_path": "/img/wasm-filter.png",
+    "description": [
+        "Photo Filter",
+        "wasm を試したかったため、Rust(wasm) + React で画像フィルターを作成しました",
+        "odd Pixel は複雑なところは細かくモザイク、シンプルな部分は荒くモザイクするフィルターです。"
+    ],
+    "media": "",
+    "link": "https://i-icc.github.io/my-photo-filltetr/",
+    "git": "https://github.com/i-icc/my-photo-filltetr",
+    "tech": [
+        "Rust",
+        "wasm",
+        "React"
+    ],
+    "date": "2024-10-17"
+}
