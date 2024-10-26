@@ -12,8 +12,8 @@
         "odd Pixel は複雑なところは細かくモザイク、シンプルな部分は荒くモザイクするフィルターです。"
     ],
     "media": "",
-    "link": "https://i-icc.github.io/my-photo-filltetr/",
-    "git": "https://github.com/i-icc/my-photo-filltetr",
+    "link": "https://i-icc.github.io/photo-filter/",
+    "git": "https://github.com/i-icc/photo-filter",
     "tech": [
         "Rust",
         "wasm",
