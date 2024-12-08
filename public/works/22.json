@@ -1,0 +1,29 @@
+{
+    "id": 22,
+    "title": "AI Cast",
+    "short_description": "AI が日本で話題な記事を要約してラジオとして提供するサービスです",
+    "tag": [
+        "software"
+    ],
+    "image_path": "/img/ai-cast.png",
+    "description": [
+        "AI が日本で話題な記事を要約してラジオとして提供するサービスです。",
+        "一駅分の移動の時間でトレンドをキャッチ！",
+        "各種PodCast でも配信中！！",
+        "https://ai-cast.web.app/home/",
+        "---",
+        "フロントエンドは NEXT.js で Firebase にデプロイ",
+        "バックエンド(コンテンツ生成)はPythonで cloud functions に乗せ、Cloud Scheduler で定期的に回しています。",
+        "原稿生成は Gemini をしようして、音声は VoiceVOX をしようしています(好きだから)"
+    ],
+    "media": "",
+    "link": "https://ai-cast.web.app/",
+    "git": "https://github.com/i-icc/hogecast-client",
+    "tech": [
+        "NEXT.js",
+        "Firebase",
+        "Python",
+        "GoogleCloud"
+    ],
+    "date": "2024-11-17"
+}

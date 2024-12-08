@@ -1,0 +1,25 @@
+{
+    "id": 24,
+    "title": "自宅のMenu",
+    "short_description": "趣味の自炊をあげる場所を作成しました",
+    "tag": [
+        "software"
+    ],
+    "image_path": "/img/menu.png",
+    "description": [
+        "自炊が趣味なのでそれをあげる場所を作成しました。",
+        "デプロイ先は Vercel。",
+        "勉強として、terraform を使用して、s3 + cloudFront にも一時デプロイしていました。",
+        "当時の terraform は git にございます。",
+        "また、CMS は自宅の MiniPC にてホスティングしています。",
+        "メインもCMSもベースは bolt.new という生成AIで作成いたしました。"
+    ],
+    "media": "",
+    "link": "https://i-icc-menu.vercel.app/",
+    "git": "https://github.com/i-icc/menu",
+    "tech": [
+        "Next.js",
+        "terraform"
+    ],
+    "date": "2024-12-01"
+}

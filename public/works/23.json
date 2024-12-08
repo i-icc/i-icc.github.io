@@ -1,0 +1,21 @@
+{
+    "id": 23,
+    "title": "仕事中にYoutubeを見るアプリ(ネタ)",
+    "short_description": "クソアプリアドベントカレンダーのネタです",
+    "tag": [
+        "software"
+    ],
+    "image_path": "/img/youtube-cli.gif",
+    "description": [
+        "クソアプリアドベントカレンダー2024 のネタで作成しました。",
+        "ブログを書いたのでそちらを見ていただけると嬉しです",
+        "`サービスへ` のボタンから制作記事へ飛べます"
+    ],
+    "media": "",
+    "link": "https://i-icc.hatenablog.com/entry/2024/11/30/131510",
+    "git": "https://github.com/i-icc/cli-youtube-player",
+    "tech": [
+        "Python"
+    ],
+    "date": "2024-12-09"
+}

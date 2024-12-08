@@ -40,7 +40,7 @@ export default {
     };
   },
   mounted() {
-    let recommended_ids = [13, 19, 6];
+    let recommended_ids = [13, 19, 22];
     recommended_ids.forEach((i) => {
       fetch(`/works/${i}.json`)
         .then((response) => {
