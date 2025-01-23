@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404</title>
 </head>
+
 <body>
-    <script>location.replace("/");</script>
+    <script>
+        if (location.pathname.endsWith('.txt')) {
+            // GitHub Pages の元の動作を使用
+            location.href = location.pathname
+        } else {
+            // Vue Router のルートを読み込む
+            location.href = '/#' + location.pathname
+        }
+    </script>
 </body>
+
 </html>
