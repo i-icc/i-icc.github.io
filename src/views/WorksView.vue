@@ -7,67 +7,66 @@
       制作物
     </div>
     <div class="works">
-      <WorksComponent :works="works" :tag="tag" />
+      <WorksComponent :initialWorks="filteredWorks" />
     </div>
   </main>
 </template>
 
-<script>
-import WorksComponent from "@/components/WorksComponent.vue";
+<script lang="ts">
+import { defineComponent, ref, computed, onMounted, watch } from 'vue'
+import { useRoute } from 'vue-router'
+import WorksComponent from "@/components/WorksComponent.vue"
+import type { Work } from '@/types/work'
 
-import "../../public/css/works.css";
+import "../../public/css/works.css"
 
-export default {
-  data() {
-    return {
-      all_works: [],
-      works: [],
-      tag: null,
-    };
-  },
-  methods: {
-    select_work: function () {
-      // console.log("test", this.tag, this.all_works, this.works);
-      this.works = [];
-      for (const work of this.all_works) {
-        // console.log(work);
-        if (work.tag.includes(this.tag) || this.tag == null) this.works.push(work);
-      }
-    },
-  },
-  watch: {
-    $route: function (newVal, oldVal) {
-      if (newVal !== oldVal) {
-        this.tag = this.$route.query.tag;
-        this.select_work();
-      } else {
-        this.select_work();
-      }
-    },
-  },
-  mounted() {
-    this.tag = this.$route.query.tag;
-    fetch(`/works/show_list.json`)
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        for (var i = data.from; i <= data.to; i++) {
-          fetch(`/works/${i}.json`)
-            .then((response) => {
-              return response.json();
-            })
-            .then((json) => {
-              this.all_works.push(json);
-              if (json.tag.includes(this.tag) || this.tag == null) this.works.push(json);
-            });
-        }
-      });
-
-    this.select_work();
-  },
+export default defineComponent({
+  name: 'WorksView',
   components: {
     WorksComponent,
   },
-};
+  setup() {
+    const route = useRoute()
+    const allWorks = ref<Work[]>([])
+    const tag = ref<string | null>(null)
+
+    const filteredWorks = computed(() => {
+      if (!tag.value) return allWorks.value
+      return allWorks.value.filter(work => work.tags.includes(tag.value!))
+    })
+
+    const loadWorks = async () => {
+      try {
+        const response = await fetch('/works/show_list.json')
+        const data = await response.json()
+        
+        const workPromises = []
+        for (let i = data.from; i <= data.to; i++) {
+          workPromises.push(fetch(`/works/${i}.json`).then(res => res.json()))
+        }
+        
+        const works = await Promise.all(workPromises)
+        allWorks.value = works
+      } catch (error) {
+        console.error('Error loading works:', error)
+      }
+    }
+
+    watch(
+      () => route.query.tag,
+      (newTag) => {
+        tag.value = newTag as string || null
+      }
+    )
+
+    onMounted(() => {
+      tag.value = route.query.tag as string || null
+      loadWorks()
+    })
+
+    return {
+      filteredWorks
+    }
+  }
+})
 </script>
