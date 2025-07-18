@@ -1,0 +1,24 @@
+{
+    "id": 26,
+    "title": "ZigZag",
+    "short_description": "脳トレ系ジグザグアクションゲーム（Flutter製）",
+    "tag": [
+        "software",
+        "recommend"
+    ],
+    "image_path": "/img/zigzag.png",
+    "description": [
+        "ZigZagは、シンプルな操作で楽しめる脳トレ系ジグザグアクションゲームです。",
+        "画面をタップするだけでキャラクターの進行方向を切り替え、落ちないように道を進み続けます。",
+        "反射神経や判断力が試されるため、ちょっとしたスキマ時間の脳トレや気分転換にも最適です。",
+        "FlutterとFlameエンジンを活用し、軽快な動作と美しいグラフィックを実現しています。"
+    ],
+    "media": "",
+    "link": "https://apps.apple.com/jp/app/zigzag-%E8%84%B3%E3%81%8C%E6%BA%B6%E3%81%91%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0/id6748082753?platform=iphone",
+    "git": "",
+    "tech": [
+        "Flutter",
+        "Flame"
+    ],
+    "date": "2025-07-19"
+}
