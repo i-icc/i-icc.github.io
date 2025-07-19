@@ -45,19 +45,9 @@ export default {
   data() {
     return {
       links: [
-        {
-          l: "https://www.youtube.com/channel/UCJPHtSJNPvXaMm-DO2Hu8_w",
-          t: "youtube",
-          i: "/img/youtube_logo.png",
-        },
-        {
-          l: "https://www.nicovideo.jp/user/96299447",
-          t: "niconico",
-          i: "/img/niconico_logo.png",
-        },
         { l: "https://github.com/i-icc", t: "git", i: "/img/git_logo.png" },
         {
-          l: "https://twitter.com/bo_neko00000",
+          l: "https://twitter.com/bo_neko_i_icc",
           t: "twitter",
           i: "/img/twitter_logo.png",
         },
