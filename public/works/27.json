@@ -6,12 +6,10 @@
         "software",
         "recommend"
     ],
-    "image_path": "/img/PNHpnh.png",
+    "image_path": "/img/PNGpng.png",
     "description": [
-        "PNGpngは、PNG画像の変換や編集を簡単に行えるアプリです。",
-        "画像のフォーマット変換（JPEG⇔PNGなど）、リサイズ、圧縮、背景透過、色調補正など、日常的に使う画像処理機能を直感的なUIで提供します。",
-        "複数画像の一括変換や、スマホ・PC両対応のクロスプラットフォーム設計で、誰でも手軽に高品質な画像編集が可能です。",
-        "Flutter製のため動作が軽快で、今後も機能追加が期待できます。"
+        "PNGpngは、PNG画像の画像圧縮を簡単に行えるアプリです。",
+        "複数画像の一括変換を誰でも手軽に可能です。"
     ],
     "media": "",
     "link": "https://i-icc.github.io/png-png/",
