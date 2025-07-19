@@ -6,8 +6,11 @@
     >
       制作物
     </div>
-    <div class="works">
-      <WorksComponent :works="works" :tag="tag" />
+    <div v-for="([year, yearGroup]) in groupedWorks" :key="year" class="mb-5">
+      <h2 class="display-5 mb-3 text-center" style="color: #666;">{{ year }}</h2>
+      <div class="works">
+        <WorksComponent :works="yearGroup" :tag="tag" />
+      </div>
     </div>
   </main>
 </template>
@@ -24,6 +27,25 @@ export default {
       works: [],
       tag: null,
     };
+  },
+  computed: {
+    groupedWorks() {
+      const groups = {};
+      this.works.forEach(work => {
+        let year = work.date.substring(0, 4);
+        if (year === '????') year = '年不明';
+        if (!groups[year]) groups[year] = [];
+        groups[year].push(work);
+      });
+
+      // 配列で返すことで順序を保証
+      return Object.entries(groups)
+        .sort(([a], [b]) => {
+          if (a === '年不明') return 1;
+          if (b === '年不明') return -1;
+          return parseInt(b) - parseInt(a); // 新しい年が上
+        });
+    }
   },
   methods: {
     select_work: function () {
@@ -52,19 +74,23 @@ export default {
         return response.json();
       })
       .then((data) => {
+        const promises = [];
         for (var i = data.from; i <= data.to; i++) {
-          fetch(`/works/${i}.json`)
-            .then((response) => {
-              return response.json();
-            })
-            .then((json) => {
-              this.all_works.push(json);
-              if (json.tag.includes(this.tag) || this.tag == null) this.works.push(json);
-            });
+          promises.push(
+            fetch(`/works/${i}.json`)
+              .then((response) => response.json())
+          );
         }
+        
+        Promise.all(promises).then((allWorks) => {
+          this.all_works = allWorks.sort((a, b) => {
+            const dateA = new Date(a.date.replace(/\?/g, '1').replace('/', '-'));
+            const dateB = new Date(b.date.replace(/\?/g, '1').replace('/', '-'));
+            return dateB - dateA;
+          });
+          this.select_work();
+        });
       });
-
-    this.select_work();
   },
   components: {
     WorksComponent,
