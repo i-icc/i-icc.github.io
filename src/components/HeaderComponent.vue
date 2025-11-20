@@ -69,6 +69,11 @@
             >
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" aria-current="page" to="/contact"
+              >Contact</router-link
+            >
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link" aria-current="page" to="/blog"
               >Blog</router-link
             >
