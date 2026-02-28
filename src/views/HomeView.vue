@@ -40,15 +40,13 @@ export default {
     };
   },
   mounted() {
-    let recommended_ids = [13, 25, 22];
-    recommended_ids.forEach((i) => {
-      fetch(`/works/${i}.json`)
-        .then((response) => {
-          return response.json();
-        })
-        .then((json) => {
-          this.works.push(json);
-        });
+    const recommended_ids = [13, 25, 35];
+    Promise.all(
+      recommended_ids.map((i) =>
+        fetch(`/works/${i}.json`).then((response) => response.json())
+      )
+    ).then((jsons) => {
+      this.works = jsons;
     });
   },
   components: {

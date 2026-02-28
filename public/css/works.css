@@ -5,6 +5,11 @@
     padding: 0 25px;
 }
 
+.works.works-single {
+    grid-template-columns: minmax(250px, 520px);
+    justify-content: center;
+}
+
 .work {
     transition: .5s;
     position: relative;

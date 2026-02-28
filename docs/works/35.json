@@ -1,0 +1,27 @@
+{
+    "id": 35,
+    "title": "あるくパラレル",
+    "short_description": "選ばなかった「もしも」を提示するAI並走散歩アプリ",
+    "tag": [
+        "software"
+    ],
+    "image_path": "/img/aruku-parallel.png",
+    "description": [
+        "散歩中の意思決定を奪わず、もう一人の自分としてAIが非同期で提案を返す体験を目指したプロジェクトです。",
+        "最適解へ誘導するのではなく、「別ルートを選んでいたら」を提示して偶発的な発見を促します。",
+        "第4回 Agentic AI Hackathon with Google Cloud 提出作品で、現在はTestFlight配布で体験できます。",
+        "<b>アーキテクチャ図</b><br><img src='/img/aruku-architecture.png' alt='あるくパラレルのアーキテクチャ図' style='max-width: 100%; border: 1px solid #ddd; border-radius: 8px;' />"
+    ],
+    "media": "https://www.youtube-nocookie.com/embed/gAdnGRh5m2g",
+    "link": "https://testflight.apple.com/join/VxkuCzx8",
+    "git": "https://github.com/i-icc/aruku_pallarel",
+    "tech": [
+        "Flutter",
+        "Flask",
+        "Google ADK",
+        "Vertex AI",
+        "Firebase",
+        "Terraform"
+    ],
+    "date": "2026-02-08"
+}

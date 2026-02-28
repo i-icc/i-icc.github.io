@@ -1,0 +1,21 @@
+{
+    "id": 28,
+    "title": "AAgram",
+    "short_description": "写真をASCIIアートに変換して共有できるアプリ",
+    "tag": [
+        "software"
+    ],
+    "image_path": "/img/aagram.jpg",
+    "description": [
+        "撮った写真をアスキーアート化して、少し変わった形で思い出を残せるアプリです。",
+        "通常の画像を送りにくい場面でも、文字ベースの表現で情景を共有できます。",
+        "シンプル操作で手軽に変換できるよう設計しています。"
+    ],
+    "media": "",
+    "link": "https://apps.apple.com/jp/app/aagram/id6740532543?uo=4",
+    "git": "",
+    "tech": [
+        "iOS"
+    ],
+    "date": "2025-02-04"
+}

@@ -8,7 +8,7 @@
     </div>
     <div v-for="([year, yearGroup]) in groupedWorks" :key="year" class="mb-5">
       <h2 class="display-5 mb-3 text-center" style="color: #666;">{{ year }}</h2>
-      <div class="works">
+      <div class="works" :class="{ 'works-single': yearGroup.length === 1 }">
         <WorksComponent :works="yearGroup" :tag="tag" />
       </div>
     </div>

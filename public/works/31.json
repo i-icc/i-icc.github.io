@@ -1,0 +1,21 @@
+{
+    "id": 31,
+    "title": "CatGPT",
+    "short_description": "猫型AIチャットで癒しと遊び心を届けるアプリ",
+    "tag": [
+        "software"
+    ],
+    "image_path": "/img/catgpt.jpg",
+    "description": [
+        "忙しい日常の中で、気軽に話しかけられる猫型AIチャットアプリです。",
+        "疲れたときや気分転換したいときに、やわらかい会話体験を提供します。",
+        "「猫の手を借りたい」気分に寄り添うことを目指したプロジェクトです。"
+    ],
+    "media": "",
+    "link": "https://apps.apple.com/jp/app/catgpt-%E7%8C%AB%E3%81%AE%E6%89%8B%E3%82%92%E5%80%9F%E3%82%8A%E3%81%9F%E3%81%84%E3%81%82%E3%81%AA%E3%81%9F%E3%81%B8/id6748872106?uo=4",
+    "git": "",
+    "tech": [
+        "iOS"
+    ],
+    "date": "2025-07-23"
+}
