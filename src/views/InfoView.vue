@@ -1,6 +1,9 @@
 <template>
   <main class="container">
     <ul class="list-group-flush">
+      <li class="list-group-item">
+        2026-04-10 ドメインを <a href="https://bo-neko.com/">bo-neko.com</a> に変更しました。
+      </li>
       <li class="list-group-item">2024-09-01 お問い合わせ先を追加</li>
       <li class="list-group-item">2024-03-20 ブログへのリンク追加。</li>
       <li class="list-group-item">
